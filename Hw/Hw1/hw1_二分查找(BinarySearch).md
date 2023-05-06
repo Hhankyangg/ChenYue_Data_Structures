@@ -1,3 +1,4 @@
+````c
 Position BinarySearch( List L, ElementType X ) {
     int leftnum = 1;
     int rightnum = L->Last;
@@ -14,3 +15,5 @@ Position BinarySearch( List L, ElementType X ) {
     } 
     return NotFound;
 }
+````
+
