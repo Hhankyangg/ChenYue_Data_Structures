@@ -65,7 +65,7 @@ int main() {
     }
     // reverse
     int tail = head, cnt = 1;
-    int* last_section = &head;
+    int* last_section = &head;	// 神来之笔!
     for (; tail!=-1; cnt++, tail = addr[tail].next) {
         if (cnt % k == 0) { // it's time to reverse
             int beg = *last_section;
